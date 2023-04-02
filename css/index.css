@@ -1,8 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: white;
 }
 
 .titulo-destaque {
     color: #E70000;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 606px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 26px;
+    font-family: 'Acme', sans-serif;
 }
