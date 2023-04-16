@@ -28,6 +28,10 @@ body {
     text-decoration: none;
 }
 
+.cabecalho__menu__link:hover {
+    text-decoration: underline;
+}
+
 .apresentacao {
     padding: 5% 15%;
     display: flex;
@@ -89,7 +93,6 @@ body {
 
 .apresentacao__conteudo__links__botao:hover {
     background-color: #272727;
-    padding: 5%;
 }
 
 .rodape {
@@ -100,4 +103,13 @@ body {
     font-family: 'Acme', sans-serif;
     font-size: 24px;
     font-weight: 100;
+}
+
+.lista__formacoes {
+    text-decoration: none;
+    color: #B10000;
+}
+
+.lista__formacoes:hover {
+    text-decoration: underline;
 }
