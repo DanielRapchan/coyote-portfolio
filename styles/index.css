@@ -11,12 +11,25 @@ body {
     color: white;
 }
 
-.titulo-destaque {
-    color: #E70000;
+.cabecalho {
+    padding: 3% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #B10000;
+    text-decoration: none;
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,6 +45,10 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 40px;
     font-family: 'Acme', sans-serif;
+}
+
+.titulo-destaque {
+    color: #E70000;
 }
 
 .apresentacao__conteudo__paragrafo {
