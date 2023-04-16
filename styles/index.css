@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #B10000;
+    --cor-quaternaria: #E70000;
+    --cor-hover: #272727;
+
+    --fonte-principal: 'Acme', sans-serif;
+} 
+
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +17,13 @@
 
 body {
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
-    padding: 3% 0% 0% 15%;
+    padding: 3% 0% 1% 15%;
+    border-bottom: 2px solid var(--cor-terciaria);
 }
 
 .cabecalho__menu {
@@ -21,10 +32,10 @@ body {
 }
 
 .cabecalho__menu__link {
-    font-family: 'Acme', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
-    color: #B10000;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
@@ -48,17 +59,17 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 40px;
-    font-family: 'Acme', sans-serif;
+    font-family: var(--fonte-principal);
 }
 
 .titulo-destaque {
-    color: #E70000;
+    color: var(--cor-quaternaria);
 }
 
 .apresentacao__conteudo__paragrafo {
     font-weight: 100;
     font-size: 26px;
-    font-family: 'Acme', sans-serif;
+    font-family: var(--fonte-principal);
 }
 
 .apresentacao__conteudo__links {
@@ -70,7 +81,7 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: 'Acme', sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 24px;
 }
@@ -82,32 +93,32 @@ body {
     align-items: center;
     width: 370px;
     text-align: center;
-    border: 2px solid #B10000;
+    border: 2px solid var(--cor-terciaria);
     border-radius: 7px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
-    font-family: 'Acme', sans-serif;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
 }
 
 .apresentacao__conteudo__links__botao:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .rodape {
     padding: 24px;
-    color: black;
-    background-color: #B10000;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     text-align: center;
-    font-family: 'Acme', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 100;
 }
 
 .lista__formacoes {
     text-decoration: none;
-    color: #B10000;
+    color: var(--cor-terciaria);
 }
 
 .lista__formacoes:hover {
