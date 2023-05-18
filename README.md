@@ -21,5 +21,5 @@ A seção Currículo permite que o dono do portfolio exponha seu background prof
 ![image](https://github.com/DanielRapchan/coyote-portfolio/assets/115100223/ae33929b-35c2-4fae-a982-2a4c81077690)
 ![image](https://github.com/DanielRapchan/coyote-portfolio/assets/115100223/5185702e-1060-493f-8f30-3563c84797e7)
 
-
+O deploy pode ser acessado através de: https://coyote-portfolio.vercel.app/index.html
 
